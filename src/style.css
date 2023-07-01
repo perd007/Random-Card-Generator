@@ -1,1 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  margin: 0px;
+  padding: 0px;
+}
+.card {
+  margin-top: 20px;
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  border-radius: 7px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.alignLeft {
+  justify-content: start;
+  font-size: 20px;
+}
+.alignCenter {
+  align-self: center;
+}
+.alignRigth {
+  align-self: flex-end;
+}
+
+
